@@ -1,0 +1,2 @@
+
+-DCATKIN_DEVEL_PREFIX=/home/nakakura/Desktop/pipe/rust_pipe/devel -DCMAKE_INSTALL_PREFIX=/home/nakakura/Desktop/pipe/rust_pipe/install -G Unix Makefiles

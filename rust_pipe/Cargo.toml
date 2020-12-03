@@ -1,0 +1,24 @@
+[package]
+name = "rust_pipe"
+version = "0.1.0"
+authors = ["Toshiya Nakakura <nakakura@me.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+nix = "0.16.1"
+tempdir = "0.3.7"
+tokio = {version="0.3", features=["full"]}
+
+[[bin]]
+name = "main"
+path = "src/main.rs"
+
+[[bin]]
+name = "sender"
+path = "src/sender.rs"
+
+[[bin]]
+name = "receiver"
+path = "src/receiver.rs"
